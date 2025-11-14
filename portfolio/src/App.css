@@ -1,0 +1,115 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Ensure the body takes up the full height */
+}
+
+/* App Container (flexbox) */
+.App {
+  text-align: center;
+  flex-grow: 1;
+}
+
+/* HEADER */
+.App-header {
+  background-color: #2d2d2d;
+  color: #f1c40f; /* Dark yellow text */
+  padding: 5px 10px;
+  font-size: 24px;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  text-align: center;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #333;
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 80px; /* Adjust for fixed header */
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Center the navbar items */
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #f1c40f;
+  font-size: 16px;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.navbar a:hover {
+  background-color: #f1c40f;
+  color: #000;
+}
+
+/* MAIN CONTENT */
+.main-content {
+  margin-top: 120px; /* Ensure content is below navbar */
+  text-align: center;
+  flex-grow: 1; /* Ensures the content area grows and pushes footer down */
+}
+
+.main-content h2 {
+  color: #f1c40f; /* Dark yellow title */
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.main-content p {
+  color: #fff;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 12px 30px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #f1c40f; /* Dark yellow button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #d4ac0d; /* Slightly darker yellow */
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 1px;
+  background-color: #2d2d2d;
+  color: white;
+  position: relative;
+  bottom: 0;
+  top: 250px;
+  width: 100%;
+}
