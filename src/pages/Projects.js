@@ -8,11 +8,11 @@ export default function Projects() {
         <li>
           <strong>CRUD:</strong> Built with React{" "}
           <a
-            href="https://github.com/keislyuk/reactjsCrud"
+            href="https://reactjs-crud-five.vercel.app/login"
             target="_blank"
             rel="noopener noreferrer"
           >
-            View on GitHub
+            View on Projects
           </a>
         </li>
         <li><strong>...:</strong>...</li>
